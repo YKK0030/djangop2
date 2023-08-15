@@ -2,10 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 def home(request):
-    return render(request,"Templates/login/index.html")
+    return render(request,"Templates/index.html")
 
 def singup(request):
-
     return render(request,"Templates/login/singup.html")
 
 def singin(request):
